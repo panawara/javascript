@@ -4,11 +4,9 @@ var value = (a * a) + (2 * a * b) - (b * b);
 console.log(value);
 
 if (value > 0) {
-	console.log("dodatnia");
+    console.log("liczba dodatnia");
+} else if (value < 0) {
+    console.log("liczba ujemna");
 } else {
-	console.log("ujemna");
-} if (value == 0) {
 	console.log("zero");
-} else {
-	console.log("nie-zero");
 }
